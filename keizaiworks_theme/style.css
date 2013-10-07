@@ -1,0 +1,148 @@
+/*
+Theme Name: Keizai Works
+Theme URI: http://wordpress.org/
+Description: 
+Author: Joshua Lee Alday
+Author URI: http://wordpress.org/
+Version: 1.0
+
+License:
+License URI:
+
+General comments (optional).
+*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+/*structure*/
+header{
+	top:0;
+	margine-top:0 auto;
+	position:relative;
+	font: 11px futura, sans-serif;
+	height:29px;
+}
+
+header img{
+	margin-top:0px;
+}
+
+header div#login{
+	color:#59d4d5;
+	position:absolute;
+	right:0px;
+	top:0px;
+	width:450px;
+	height:25px;
+	font-weight:bold;
+}
+
+header div#logout{
+	color:#59d4d5;
+	position:absolute;
+	right:0px;
+	top:0px;
+	width:150px;
+	height:25px;
+	font-weight:bold;
+}
+
+header input{
+	width: 100px;
+}
+
+nav{
+	width: 0 auto;
+	margin: 0 auto;
+	padding: 5px;
+	overflow: auto;
+	height: 40px;
+	font-weight:bold;
+}
+
+nav ul li{
+	display: inline-block;
+	
+}
+
+nav ul li a{
+	text-decoration:none;
+	padding: 10px 20px;
+}
+
+body{
+	background: #fff;
+	font: 14px futura, sans-serif;
+}
+
+#container{
+	width: 0 auto;
+	padding: 20px;
+	overflow: auto;
+}
+
+#sidebar{
+	float: right;
+	width: 260px;
+	position: relative;
+	height:0 auto;
+}
+
+#sidebar  li {list-style-type:none;}
+#sidebar div{
+}
+
+
+footer{
+	position:fixed;
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+	overflow: auto;
+	background: #000;
+	color: #fff;
+	padding: 20px;
+	bottom: 0px;
+	clear:both;
+}
+
+#left {
+	float: left;
+	width: 70%;
+	position:aboslute;
+	padding-bottom: 40px;
+}
+
+table#stockTable{
+	font-size: 11px;
+	width:70%;
+	border-width: 1px;
+	border-color: #666666;
+	border-collapse: collapse;
+	
+}
+
+table#stockTable th{
+	overflow:auto;
+	border-width: 1px;
+	padding: 2px;
+	border-style: solid;
+	background:-moz-linear-gradient(center top , #FAD59F, #FA9907) repeat scroll 0 0 transparent;
+    	background:-webkit-gradient(linear, left top, left bottom, from(#fad59f), to(#fa9907));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FAD59F', endColorstr='#FA9907');
+	z-index: -1;
+}
+
+table#stockTable td{
+	border-width: 1px;
+	padding: 2px;
+	border-style: solid;
+	background:-moz-linear-gradient(center top , #EBECDA, #CECEB7) repeat scroll 0 0 transparent;
+    	background:-webkit-gradient(linear, left top, left bottom, from(#EBECDA), to(#CECEB7));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#EBECDA', endColorstr='#CECEB7');
+	z-index: -1;
+}
+
+/*text rules*/
+h1{font-size: 26px;}
+h2{font-size: 22px;}
+h3{font-size: 18px;}
